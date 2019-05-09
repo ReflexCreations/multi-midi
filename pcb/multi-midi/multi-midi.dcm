@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6N137
+D High Speed Optocoupler, Single, 10 MBd
+K optocoupler
+F https://www.vishay.com/docs/84732/6n137.pdf
+$ENDCMP
+#
+#End Doc Library
