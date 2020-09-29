@@ -28,6 +28,11 @@ fp-info-cache
 *.xml
 *.csv
 
+# FreeCAD backup file
+*.FCStd1
+*.FCStd2
+*.FCStd3
+
 
 # Ignore outputs files like gerber files
 # Note: we may want to keep some gerber files for "official, finished" versions
