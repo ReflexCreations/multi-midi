@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "MIDI Multiplier"
-Date "2020-09-12"
-Rev "0"
+Title "Multi-MIDI"
+Date "2020-09-30"
+Rev "1"
 Comp "Reflex Sound"
 Comment1 "Multi MIDI thru board, which can act as an expander for another one"
 Comment2 ""
@@ -1266,10 +1266,10 @@ L Device:C C5
 U 1 1 605AA529
 P 1650 1600
 F 0 "C5" V 1500 1550 50  0000 L CNN
-F 1 "47n" V 1800 1500 50  0000 L CNN
+F 1 "47u" V 1800 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1688 1450 50  0001 C CNN
 F 3 "~" H 1650 1600 50  0001 C CNN
-F 4 "C14663" H 1650 1600 50  0001 C CNN "LCSC"
+F 4 "C96123" H 1650 1600 50  0001 C CNN "LCSC"
 	1    1650 1600
 	1    0    0    -1  
 $EndComp
@@ -1278,10 +1278,10 @@ L Device:C C6
 U 1 1 605AAD6C
 P 2050 1600
 F 0 "C6" V 1900 1550 50  0000 L CNN
-F 1 "47n" V 2200 1500 50  0000 L CNN
+F 1 "47u" V 2200 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2088 1450 50  0001 C CNN
 F 3 "~" H 2050 1600 50  0001 C CNN
-F 4 "C14663" H 2050 1600 50  0001 C CNN "LCSC"
+F 4 "C96123" H 2050 1600 50  0001 C CNN "LCSC"
 	1    2050 1600
 	1    0    0    -1  
 $EndComp
