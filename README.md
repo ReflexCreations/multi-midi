@@ -25,7 +25,7 @@ The tab shown above is for mounting, for example, to the back of a cabinet.
 
 ![Bottom part of a 3D printed black box. In each of the corners is a heat-set threaded insert to accept M3 screws.](https://raw.githubusercontent.com/ReflexCreations/multi-midi/main/images/case-bottom-inserts.jpg)
 
-Heat-set threaded inserts go into the bottom part of the case's screwholes, allowing the use of M3 machine screws to assembly the box.
+Heat-set threaded inserts go into the bottom part of the case's screwholes, allowing the use of M3 machine screws to assemble the box.
 
 ![4 heat-set brass threaded inserts, and 4 M3 screws in the background](https://raw.githubusercontent.com/ReflexCreations/multi-midi/main/images/inserts-screws-loose.jpg)
 
@@ -89,7 +89,7 @@ The remaining parts are as follows:
     - [Farnell UK](https://uk.farnell.com/wurth-elektronik/694106301002/connector-power-entry-jack-3a/dp/2472149?ost=694106301002)
     - [RS Components UK](https://uk.rs-online.com/web/p/dc-power-connectors/1224879/)
 - Generic 2.54mm pitch single row pin header - you can find this in any electronics store, eBay, or Amazon. You can get any number of them and use pliers to break 3 pins off.
-- Generic 2.54mm pitch jumper; a piece thawt connects two pins together. You can get these from many places too, but here are some sources:
+- Generic 2.54mm pitch jumper; a piece that connects two pins together. You can get these from many places too, but here are some sources:
     - [RS Components UK](https://uk.rs-online.com/web/p/jumpers-shunts/2518503/)
     - [Farnell UK](https://uk.farnell.com/harwin/m7581-05/jumper-socket-2pos-pin-header/dp/2396303)
 
@@ -122,7 +122,7 @@ On the pin header in the middle of the board, push a jumper down over the bottom
 
 #### 5. Get a Power supply
 
-To power this thing you need a power supply that outputs 5V. The rated current is pretty irrelevant as this circuit will not draw more than 100 milliamps. To be compatible with the barrel jack on the board, it needs a barrell connector with a pin size of 2.1mm (2mm works too) and outer diameter of 5mm. It needs to be center positive. Generally can be found on eBay or Amazon or any number of places. One of those with switchable connectors can also work. A USB charger + a USB->barrel connector cable would also work just fine.
+To power this thing you need a power supply that outputs 5V. The rated current is pretty irrelevant as this circuit will not draw more than 100 milliamps. To be compatible with the barrel jack on the board, it needs a barrel connector with a pin size of 2.1mm (2mm works too) and outer diameter of 5mm. It needs to be center positive. Generally can be found on eBay or Amazon or any number of places. One of those with switchable connectors can also work. A USB charger + a USB->barrel connector cable would also work just fine.
 
 ### Case: 3D printing
 
@@ -179,7 +179,7 @@ between the boards internal to a box, for this purpose.
 #### Expander mode:
 
 1. On board 1, connect the jumper in "INT" mode. This will make it use its own MIDI in port as the source of MIDI data.
-2. On board 2, connect the jumper in "EXT" mode. This will make it use MIDI input coming through to 4-pin JST connector.
+2. On board 2, connect the jumper in "EXT" mode. This will make it use MIDI input coming through the 4-pin JST connector.
 3. Connect a cable between board 1's "Expansion output" connector and board 2's "Expansion input" connector
 4. Connect your MIDI source's "MIDI out" port to board 1's MIDI input
 5. Connect each of your instruments: connect their MIDI in ports to one of board 1's or board 2's MIDI outputs.
