@@ -37,7 +37,7 @@ Exploded view of the case and circuit board, in FreeCAD
 
 The least-work way is to order the Printed Circuit board (PCB) assembled from JLCPCB. You can also order a bare board from any PCB prototyping place, and then source and solder all the components yourself. 
 
-### Boad: The JLCPCB assembled route
+### Board: The JLCPCB assembled route
 
 #### 1. Grab the latest PCB manufacturing files
 
