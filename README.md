@@ -247,5 +247,5 @@ or "EXT", coming in through the "Expansion input" connector. Not connecting a ju
 
 - The 3D model of the barrel jack used on the PCB design was made by [DL2DW - Dirk Wouters](https://grabcad.com/dl2dw.dirk.wouters-1) and can be found here: [Power Barrel Connector Jack on GRABCAD](https://grabcad.com/library/power-barrel-connector-jack-1)
 - The circuitry for single MIDI thru is taken almost directly from the [MIDI DIN electrical specification](https://www.midi.org/specifications/item/midi-din-electrical-specification).
-- [KiCad](https://kicad-pcb.org/) was used for the electronics design (schematic, circuit board)
+- [KiCad](https://kicad.org/) was used for the electronics design (schematic, circuit board)
 - [FreeCAD](https://www.freecadweb.org/) was used to model the case, as well as the 3D representation of the DIN-5 connectors used in the 3D render of the PCB.
